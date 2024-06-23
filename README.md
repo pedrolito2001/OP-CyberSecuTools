@@ -25,8 +25,7 @@ L'outil permet de tester les authentifications FTP et SSH en utilisant des attaq
 Tous les résultats collectés sont compilés dans un rapport PDF, y compris les résultats de chaque scan et test effectué précédemment.
 
 ## Prérequis
-- **Python** : Assurez-vous que Python (version 3.10 ou 3.11) est installé sur votre système.
-  - ! Avertissement : La dernière version de Python 3.12 ne fonctionne pas avec cette Toolbox. Vous devez télécharger Python 3.11 depuis [python.org](https://www.python.org/) !
+- **Python** : Assurez-vous que Python est installé sur votre système.
 - **pip** : Assurez-vous que pip est installé pour la gestion des packages Python.
 - **Nmap** : Téléchargez et installez Nmap depuis [nmap.org](https://nmap.org/).
 - **Hydra** : Téléchargez et installez Hydra depuis le site officiel ou via votre gestionnaire de paquets.
