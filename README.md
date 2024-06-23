@@ -74,19 +74,19 @@ python main_program.py
 ## Fonctionnalités détaillées
 ### Scan de Ports avec Nmap
 -**Accéder à la page Nmap**: Depuis le menu principal, accédez à la page "Scan de Ports".
--**Entrer les informations de la cible **: Saisissez l'adresse IP de la cible à scanner.
--**Lancer le scan ** : Démarrez le scan Nmap. Les résultats s'afficheront dans la fenêtre de l'application et seront sauvegardés pour inclusion dans le rapport PDF.
+-**Entrer les informations de la cible**: Saisissez l'adresse IP de la cible à scanner.
+-**Lancer le scan** : Démarrez le scan Nmap. Les résultats s'afficheront dans la fenêtre de l'application et seront sauvegardés pour inclusion dans le rapport PDF.
 
 ### Analyse de Sécurité des Mots de Passe
--**Accéder à la page d'analyse des mots de passe ** : Depuis le menu principal, accédez à la page "Analyse de Sécurité des Mots de Passe".
--**Entrer le mot de passe ** : Saisissez le mot de passe à analyser.
--**Lancer l'analyse **: Démarrez l'analyse. Les résultats s'afficheront dans une fenêtre de message.
+-**Accéder à la page d'analyse des mots de passe** : Depuis le menu principal, accédez à la page "Analyse de Sécurité des Mots de Passe".
+-**Entrer le mot de passe** : Saisissez le mot de passe à analyser.
+-**Lancer l'analyse**: Démarrez l'analyse. Les résultats s'afficheront dans une fenêtre de message.
 ### Test d'Authentification FTP et SSH
--**Accéder à la page d'authentification ** : Depuis le menu principal, accédez à la page "Test d'Authentification FTP" ou "Test d'Authentification SSH".
--**Entrer les informations de la cible ** : Saisissez l'adresse IP de la cible et le nom d'utilisateur.
--**Entrer les listes d'identifiants et de mots de passe ** : Fournissez les fichiers de dictionnaire usernames.txt et rockyou.txt.
--**Lancer le test ** : Démarrez l'attaque par force brute. Les résultats s'afficheront dans une fenêtre de message et seront sauvegardés pour inclusion dans le rapport PDF.
+-**Accéder à la page d'authentification** : Depuis le menu principal, accédez à la page "Test d'Authentification FTP" ou "Test d'Authentification SSH".
+-**Entrer les informations de la cible** : Saisissez l'adresse IP de la cible et le nom d'utilisateur.
+-**Entrer les listes d'identifiants et de mots de passe** : Fournissez les fichiers de dictionnaire usernames.txt et rockyou.txt.
+-**Lancer le test** : Démarrez l'attaque par force brute. Les résultats s'afficheront dans une fenêtre de message et seront sauvegardés pour inclusion dans le rapport PDF.
 ### Génération du Rapport PDF
--** Accéder à la page de génération du rapport **: Depuis le menu principal, accédez à la page "Générer Rapport PDF".
--** Générer le rapport ** : Cliquez sur le bouton pour générer le rapport PDF. Le rapport compilera toutes les données collectées dans un document structuré incluant les résultats de tous les scans et tests effectués.
+-**Accéder à la page de génération du rapport**: Depuis le menu principal, accédez à la page "Générer Rapport PDF".
+-**Générer le rapport** : Cliquez sur le bouton pour générer le rapport PDF. Le rapport compilera toutes les données collectées dans un document structuré incluant les résultats de tous les scans et tests effectués.
 
