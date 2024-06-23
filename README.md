@@ -76,6 +76,7 @@ python main_program.py
 -**Accéder à la page Nmap**: Depuis le menu principal, accédez à la page "Scan de Ports".
 -**Entrer les informations de la cible **: Saisissez l'adresse IP de la cible à scanner.
 -**Lancer le scan ** : Démarrez le scan Nmap. Les résultats s'afficheront dans la fenêtre de l'application et seront sauvegardés pour inclusion dans le rapport PDF.
+
 ### Analyse de Sécurité des Mots de Passe
 -**Accéder à la page d'analyse des mots de passe ** : Depuis le menu principal, accédez à la page "Analyse de Sécurité des Mots de Passe".
 -**Entrer le mot de passe ** : Saisissez le mot de passe à analyser.
