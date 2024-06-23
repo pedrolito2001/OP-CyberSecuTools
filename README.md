@@ -38,3 +38,6 @@ Tous les résultats collectés sont compilés dans un rapport PDF, y compris les
 ```bash
 git clone https://github.com/votre-utilisateur/votre-repo.git
 cd votre-repo/
+
+### Installer les packages requis :
+
