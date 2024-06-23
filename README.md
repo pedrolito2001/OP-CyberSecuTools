@@ -4,11 +4,11 @@
 
 Bienvenue dans la Toolbox de Pentest, un projet développé dans le cadre de mon programme de Master en Cybersécurité.
 
-Cet outil est conçu pour automatiser les tests de pénétration professionnels.
+Cet outil est conçu pour automatiser les tests d'intrusions professionnels.
 
 Il consolide les résultats de divers scans en un rapport PDF bien structuré, facilitant ainsi la révision et la gestion des vulnérabilités par les professionnels de la sécurité.
 
-L'application a été développée en Python et fonctionne sous Windows, la rendant facilement accessible. Aucune connaissance préalable en cybersécurité n'est nécessaire pour utiliser l'application, bien que l'interprétation des résultats puisse être complexe sans cette connaissance.
+L'application a été développée en Python et fonctionne sous Linux. Aucune connaissance préalable en cybersécurité n'est nécessaire pour utiliser l'application, bien que l'interprétation des résultats puisse être complexe sans cette connaissance.
 
 ## Fonctionnalités
 
@@ -31,6 +31,12 @@ Tous les résultats collectés sont compilés dans un rapport PDF, y compris les
 - **Nmap** : Téléchargez et installez Nmap depuis [nmap.org](https://nmap.org/).
 - **Hydra** : Téléchargez et installez Hydra depuis le site officiel ou via votre gestionnaire de paquets.
 - **Curl** : Téléchargez et installez Curl pour récupérer les fichiers de dictionnaire.
+- **Zxcvbn** : La bibliothèque zxcvbn pour analyser la force des mots de passe.
+- **ReportLab** : Utilisé pour générer des rapports PDF.
+- **Paramiko** : Utilisé pour les connexions SSH.
+- **Requests** : Pour les requêtes HTTP utilisées dans l'outil.
+- **Ftplib** : Pour les connexions FTP.
+
 
 ## Installation
 
