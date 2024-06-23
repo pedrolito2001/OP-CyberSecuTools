@@ -38,6 +38,32 @@ Tous les résultats collectés sont compilés dans un rapport PDF, y compris les
 ```bash
 git clone https://github.com/votre-utilisateur/votre-repo.git
 cd votre-repo/
-
+```
 ### Installer les packages requis :
+```bash
+pip install -r requirements.txt
+```
+
+##Structure du Projet
+
+toolbox/
+├── main_program.py
+├── security_functions.py
+├── requirements.txt
+├── results/
+│   ├── scan_results.json
+│   ├── hydra_results.json
+├── reports/
+│   ├── report.pdf
+├── wordlists/
+│   ├── usernames.txt
+│   ├── rockyou.txt
+└── README.md
+
+## Utilisation
+### Lancer l'application:
+Pour démarrer l'application, exécutez le script main_program.py. Ce script sert de point d'entrée pour la toolbox.
+```bash
+python main_program.py
+```
 
