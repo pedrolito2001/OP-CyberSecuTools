@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ```
 
 ##Structure du Projet
-
+```
 toolbox/
 ├── main_program.py
 ├── security_functions.py
@@ -59,6 +59,7 @@ toolbox/
 │   ├── usernames.txt
 │   ├── rockyou.txt
 └── README.md
+```
 
 ## Utilisation
 ### Lancer l'application:
