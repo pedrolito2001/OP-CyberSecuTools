@@ -56,9 +56,6 @@ toolbox/
 ├── main_program.py
 ├── security_functions.py
 ├── requirements.txt
-├── results/
-│   ├── scan_results.json
-│   ├── hydra_results.json
 ├── reports/
 │   ├── report.pdf
 ├── wordlists/
