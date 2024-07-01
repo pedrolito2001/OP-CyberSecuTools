@@ -52,7 +52,7 @@ Tous les résultats collectés sont compilés dans un rapport PDF complet. Ce ra
 ### Cloner le dépôt :
 ```bash
 git clone https://github.com/pedrolito2001/OP-CyberSecuTools.git
-cd votre-repo/
+cd OP-CyberSecuTools/
 ```
 ### Installer les packages requis :
 ```bash
