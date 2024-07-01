@@ -25,7 +25,13 @@ L'outil permet de tester les authentifications FTP et SSH de manière flexible :
 - **Attaques par Dictionnaire** : En utilisant Hydra, l'outil peut effectuer des attaques par dictionnaire pour tester une large gamme de combinaisons de noms d'utilisateur et de mots de passe automatiquement.
 
 ### Génération de Rapport PDF
-Tous les résultats collectés sont compilés dans un rapport PDF, y compris les résultats de chaque scan et test effectué précédemment.
+Tous les résultats collectés sont compilés dans un rapport PDF complet. Ce rapport inclut :
+- **Introduction** : Présente les objectifs et le contexte du rapport.
+- **Détails des Hôtes** : Liste les hôtes scannés avec leurs adresses IP.
+- **Résultats des Scans** : Inclut les services détectés sur chaque port avec les versions et les CVE associées.
+- **Description des CVE** : Fournit des descriptions détaillées des vulnérabilités trouvées, accompagnées de liens vers des ressources pour plus d'informations.
+- **Résultats des Tests d'Authentification** : Présente les résultats des attaques par dictionnaire, incluant les noms d'utilisateur et mots de passe trouvés.
+- **Conclusion** : Résume les principales vulnérabilités découvertes et propose des recommandations pour remédier à ces faiblesses, comme la mise à jour des logiciels, le renforcement des configurations, la surveillance continue, les audits réguliers, et la formation du personnel.
 
 ## Prérequis
 - **Python** : Assurez-vous que Python est installé sur votre système.
