@@ -99,10 +99,16 @@ python main_program.py
   * Des recommandations pour améliorer la sécurité
   * Le nombre de fois que le mot de passe a été compromis
 ### Test d'Authentification FTP et SSH
-- **Accéder à la page d'authentification** : Depuis le menu principal, accédez à la page "Test d'Authentification FTP" ou "Test d'Authentification SSH".
-- **Entrer les informations de la cible** : Saisissez l'adresse IP de la cible et le nom d'utilisateur.
-- **Entrer les listes d'identifiants et de mots de passe** : Fournissez les fichiers de dictionnaire usernames.txt et rockyou.txt.
-- **Lancer le test** : Démarrez l'attaque par force brute. Les résultats s'afficheront dans une fenêtre de message et seront sauvegardés pour inclusion dans le rapport PDF.
+L'outil permet de tester les authentifications FTP et SSH de manière flexible :
+* **Accéder à la page d'authentification** : Depuis le menu principal, sélectionnez l'option "Test d'Authentification FTP" ou "Test d'Authentification SSH".
+* **Tests Manuels** :
+  * **Entrer les informations de la cible** : Saisissez l'adresse IP de la cible.
+  * **Entrer les identifiants** : Saisissez le nom d'utilisateur et le mot de passe.
+  * **Lancer le test** : Cliquez sur le bouton pour tester l'accès manuellement. Les résultats s'afficheront dans une fenêtre de message et seront sauvegardés pour inclusion dans le rapport PDF.
+
+* **Attaques par Dictionnaire** : En utilisant Hydra, l'outil peut effectuer des attaques par dictionnaire automatiquement.
+  * **Entrer les informations de la cible** : Saisissez l'adresse IP de la cible.
+  * **Lancer le test** : Cliquez sur le bouton "Attaque par Dictionnaire" pour démarrer l'attaque. Les fichiers de dictionnaire `usernames.txt` et `rockyou.txt` sont sélectionnés automatiquement. Les résultats des connexions réussies s'afficheront dans une fenêtre de message et seront sauvegardés pour inclusion dans le rapport PDF.
 ### Génération du Rapport PDF
 - **Accéder à la page de génération du rapport**: Depuis le menu principal, accédez à la page "Générer Rapport PDF".
 - **Générer le rapport** : Cliquez sur le bouton pour générer le rapport PDF. Le rapport compilera toutes les données collectées dans un document structuré incluant les résultats de tous les scans et tests effectués.
