@@ -34,16 +34,17 @@ Tous les résultats collectés sont compilés dans un rapport PDF complet. Ce ra
 - **Conclusion** : Résume les principales vulnérabilités découvertes et propose des recommandations pour remédier à ces faiblesses, comme la mise à jour des logiciels, le renforcement des configurations, la surveillance continue, les audits réguliers, et la formation du personnel.
 
 ## Prérequis
-- **Python** : Assurez-vous que Python est installé sur votre système.
-- **pip** : Assurez-vous que pip est installé pour la gestion des packages Python.
-- **Nmap** : Téléchargez et installez Nmap depuis [nmap.org](https://nmap.org/).
-- **Hydra** : Téléchargez et installez Hydra depuis le site officiel ou via votre gestionnaire de paquets.
-- **Curl** : Téléchargez et installez Curl pour récupérer les fichiers de dictionnaire.
-- **Zxcvbn** : La bibliothèque zxcvbn pour analyser la force des mots de passe.
+- **Python** : Langage de programmation utilisé pour développer l'application.
+- **pip** : Outil de gestion des packages Python.
+- **Nmap** : Utilisé pour effectuer des scans réseau.
+- **Hydra** : Utilisé pour les attaques par dictionnaire sur les services d'authentification.
+- **Curl** : Utilisé pour récupérer les fichiers de dictionnaire.
+- **zxcvbn** : Utilisé pour analyser la force des mots de passe.
 - **ReportLab** : Utilisé pour générer des rapports PDF.
 - **Paramiko** : Utilisé pour les connexions SSH.
-- **Requests** : Pour les requêtes HTTP utilisées dans l'outil.
-- **Ftplib** : Pour les connexions FTP.
+- **Requests** : Utilisé pour effectuer des requêtes HTTP.
+- **ftplib** : Utilisé pour les connexions FTP.
+
 
 
 ## Installation
