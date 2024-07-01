@@ -85,7 +85,7 @@ python main_program.py
 À l'ouverture de l'application, vous accéderez à la page d'accueil, puis en cliquant sur le bouton "Start", vous accéderez au menu principal. Ce menu vous permet de naviguer entre les différentes fonctionnalités de la toolbox.
 
 ## Fonctionnalités détaillées
-### Scan de Ports grâce à Nmap
+### Scan de Ports
 - **Accéder à la page Scan de Ports** : Depuis le menu principal, sélectionnez l'option "Scan de Ports".
 - **Entrer les informations de la cible** : Saisissez l'adresse IP de la cible à scanner.
 - **Lancer le scan** : Démarrez le scan en cliquant sur le bouton "Scanner".
