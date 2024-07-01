@@ -2,18 +2,18 @@
 
 ## Introduction
 
-Bienvenue dans la Toolbox de Pentest, un projet développé dans le cadre de mon programme de Master en Cybersécurité.
+Bienvenue dans OP-CyberSecuTools, votre nouvel allié dans le monde de la cybersécurité ! Développée dans le cadre de mon Master en Cybersécurité, cette boîte à outils a été pensée pour rendre les tests d'intrusion aussi simples qu'efficaces.
 
-Cet outil est conçu pour automatiser les tests d'intrusions professionnels.
+Imaginez pouvoir automatiser vos scans de sécurité en quelques clics et obtenir un rapport PDF complet et bien structuré, tout cela sans avoir à être un expert en cybersécurité. C'est exactement ce que OP-CyberSecuTools vous offre. En utilisant des scripts Python robustes comme main_program.py et security_functions.py, notre outil consolide les résultats de divers scans pour vous fournir une vue d'ensemble claire et actionnable de votre sécurité.
 
-Il consolide les résultats de divers scans en un rapport PDF bien structuré, facilitant ainsi la révision et la gestion des vulnérabilités par les professionnels de la sécurité.
+Fonctionnant parfaitement sous Linux, cette application est accessible à tous, même sans connaissances préalables en cybersécurité. Et pour ceux qui connaissent déjà un peu le domaine, vous apprécierez d'autant plus la précision et la profondeur des analyses fournies.
 
-L'application a été développée en Python et fonctionne sous Linux. Aucune connaissance préalable en cybersécurité n'est nécessaire pour utiliser l'application, bien que l'interprétation des résultats puisse être complexe sans cette connaissance.
+Prêt à découvrir les vulnérabilités cachées de votre système et à les gérer efficacement ? OP-CyberSecuTools est là pour vous aider.
 
 ## Fonctionnalités
 
 ### Scan Nmap
-L'outil s'intègre avec Nmap pour effectuer des scans réseau et recueillir des informations sur les ports ouverts, les services et les versions. Il collecte également les CVE (Common Vulnerabilities and Exposures) associées en utilisant l'API de la NVD.
+L'outil s'intègre avec Nmap pour effectuer des scans réseau et recueillir des informations sur les ports ouverts, les services et les versions. Il collecte également les CVE (Common Vulnerabilities and Exposures) associées en utilisant l'API de la NVD (National Vulnerability Database).
 
 ### Analyse de Sécurité des Mots de Passe
 Cette fonctionnalité analyse la sécurité des mots de passe en utilisant la bibliothèque zxcvbn. Elle évalue la force des mots de passe et vérifie s'ils ont été compromis en utilisant l'API Have I Been Pwned.
