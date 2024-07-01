@@ -95,7 +95,7 @@ python main_program.py
 - **Accéder à la page d'analyse des mots de passe** : Depuis le menu principal, accédez à la page "Analyse de Sécurité des Mots de Passe".
 - **Entrer le mot de passe** : Saisissez le mot de passe à analyser.
 - **Lancer l'analyse** : Cliquez sur le bouton pour démarrer l'analyse. Les résultats de l'analyse s'afficheront dans une fenêtre de message, incluant :
-  *La force du mot de passe*
+- **La force du mot de passe**
 - ***Des recommandations pour améliorer la sécurité***
 - ***Le nombre de fois que le mot de passe a été compromis***
 ### Test d'Authentification FTP et SSH
