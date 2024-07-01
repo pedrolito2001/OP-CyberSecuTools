@@ -92,12 +92,12 @@ python main_program.py
 - **Visualiser les résultats** : Une fois le scan terminé, une fenêtre avec un tableau s'affichera, montrant les résultats du scan. Ces résultats seront stockés et sauvegardés pour inclusion dans le rapport PDF.
 
 ### Analyse de Sécurité des Mots de Passe
-- **Accéder à la page d'analyse des mots de passe** : Depuis le menu principal, accédez à la page "Analyse de Sécurité des Mots de Passe".
-- **Entrer le mot de passe** : Saisissez le mot de passe à analyser.
-- **Lancer l'analyse** : Cliquez sur le bouton pour démarrer l'analyse. Les résultats de l'analyse s'afficheront dans une fenêtre de message, incluant :
-- **La force du mot de passe**
-- ***Des recommandations pour améliorer la sécurité***
-- ***Le nombre de fois que le mot de passe a été compromis***
+* Accéder à la page d'analyse des mots de passe : Depuis le menu principal, accédez à la page "Analyse de Sécurité des Mots de Passe".
+* Entrer le mot de passe : Saisissez le mot de passe à analyser.
+* Lancer l'analyse : Cliquez sur le bouton pour démarrer l'analyse. Les résultats de l'analyse s'afficheront dans une fenêtre de message, incluant :
+  * La force du mot de passe
+  * Des recommandations pour améliorer la sécurité
+  * Le nombre de fois que le mot de passe a été compromis
 ### Test d'Authentification FTP et SSH
 - **Accéder à la page d'authentification** : Depuis le menu principal, accédez à la page "Test d'Authentification FTP" ou "Test d'Authentification SSH".
 - **Entrer les informations de la cible** : Saisissez l'adresse IP de la cible et le nom d'utilisateur.
