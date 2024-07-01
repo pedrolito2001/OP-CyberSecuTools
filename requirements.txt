@@ -1,0 +1,6 @@
+nmap
+pdfkit
+paramiko
+requests
+fpdf
+zxcvbn
