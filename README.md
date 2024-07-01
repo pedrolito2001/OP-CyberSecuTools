@@ -72,7 +72,6 @@ toolbox/
 │   ├── usernames.txt
 │   ├── rockyou.txt
 └── README.md
-├── __pycache__
 ```
 
 ## Utilisation
