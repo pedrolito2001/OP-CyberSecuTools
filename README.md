@@ -110,6 +110,11 @@ L'outil permet de tester les authentifications FTP et SSH de manière flexible :
   * **Entrer les informations de la cible** : Saisissez l'adresse IP de la cible.
   * **Lancer le test** : Cliquez sur le bouton "Attaque par Dictionnaire" pour démarrer l'attaque. Les fichiers de dictionnaire `usernames.txt` et `rockyou.txt` sont sélectionnés automatiquement. Les résultats des connexions réussies s'afficheront dans une fenêtre de message et seront sauvegardés pour inclusion dans le rapport PDF.
 ### Génération du Rapport PDF
-- **Accéder à la page de génération du rapport**: Depuis le menu principal, accédez à la page "Générer Rapport PDF".
-- **Générer le rapport** : Cliquez sur le bouton pour générer le rapport PDF. Le rapport compilera toutes les données collectées dans un document structuré incluant les résultats de tous les scans et tests effectués.
+* **Accéder à la page de génération du rapport** : Depuis le menu principal, sélectionnez l'option "Générer Rapport PDF".
+* **Générer le rapport** : Cliquez sur le bouton pour générer le rapport PDF. Le rapport compilera toutes les données collectées, incluant :
+  * Un résumé des scans et des analyses effectuées.
+  * Des détails sur les vulnérabilités découvertes.
+  * Des descriptions des CVE associées.
+  * Les résultats des tests d'authentification.
+  * Des recommandations pour corriger les vulnérabilités.
 
