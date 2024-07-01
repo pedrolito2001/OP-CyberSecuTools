@@ -13,13 +13,16 @@ Prêt à découvrir les vulnérabilités cachées de votre système et à les g�
 ## Fonctionnalités
 
 ### Scan Nmap
-L'outil s'intègre avec Nmap pour effectuer des scans réseau et recueillir des informations sur les ports ouverts, les services et les versions. Il collecte également les CVE (Common Vulnerabilities and Exposures) associées en utilisant l'API de la NVD (National Vulnerability Database).
+L'outil s'intègre avec Nmap pour effectuer des scans réseau et recueillir des informations sur les ports ouverts, les services et les versions. Il collecte également les CVE (Common Vulnerabilities and Exposures) associées en utilisant l'API de la NVD (National Vulnerability Database)
 
 ### Analyse de Sécurité des Mots de Passe
 Cette fonctionnalité analyse la sécurité des mots de passe en utilisant la bibliothèque zxcvbn. Elle évalue la force des mots de passe et vérifie s'ils ont été compromis en utilisant l'API Have I Been Pwned.
 
 ### Test d'Authentification FTP et SSH
-L'outil permet de tester les authentifications FTP et SSH en utilisant des attaques par dictionnaire. Il utilise Hydra pour effectuer ces attaques, testant différentes combinaisons de noms d'utilisateur et de mots de passe.
+L'outil permet de tester les authentifications FTP et SSH de manière flexible :
+
+- **Tests Manuels** : Vous pouvez entrer des combinaisons de noms d'utilisateur et de mots de passe manuellement pour tester l'accès.
+- **Attaques par Dictionnaire** : En utilisant Hydra, l'outil peut effectuer des attaques par dictionnaire pour tester une large gamme de combinaisons de noms d'utilisateur et de mots de passe automatiquement.
 
 ### Génération de Rapport PDF
 Tous les résultats collectés sont compilés dans un rapport PDF, y compris les résultats de chaque scan et test effectué précédemment.
