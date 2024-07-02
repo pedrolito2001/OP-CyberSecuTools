@@ -131,8 +131,8 @@ def test_ssh_login(host, username, password):
 # Utilisation de Hydra pour l'attaque par dictionnaire SSH et FTP
 def perform_dictionary_attack(host, auth_type):
     base_path = os.path.join(os.path.dirname(__file__), 'wordlists')
-    user_dictionary_file = os.path.join(base_path, 'usernames.txt')
-    password_dictionary_file = os.path.join(base_path, 'french_passwords_top20000.txt')
+    user_dictionary_file = os.path.join(base_path, 'username_test_list.txt')
+    password_dictionary_file = os.path.join(base_path, 'password_test_list.txt')
     
     command = []
     if auth_type == 'FTP':
