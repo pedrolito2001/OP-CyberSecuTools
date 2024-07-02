@@ -108,7 +108,7 @@ L'outil permet de tester les authentifications FTP et SSH de manière flexible :
 
 * **Attaques par Dictionnaire** : En utilisant Hydra, l'outil peut effectuer des attaques par dictionnaire automatiquement.
   * **Entrer les informations de la cible** : Saisissez l'adresse IP de la cible.
-  * **Lancer le test** : Cliquez sur le bouton "Attaque par Dictionnaire" pour démarrer l'attaque. Les fichiers de dictionnaire `usernames.txt` et `rockyou.txt` sont sélectionnés automatiquement. Les résultats des connexions réussies s'afficheront dans une fenêtre de message et seront sauvegardés pour inclusion dans le rapport PDF.
+  * **Lancer le test** : Cliquez sur le bouton "Attaque par Dictionnaire" pour démarrer l'attaque. Les fichiers de dictionnaire `username_test_login.txt` et `password_test_login.txt` sont sélectionnés automatiquement. Les résultats des connexions réussies s'afficheront dans une fenêtre de message et seront sauvegardés pour inclusion dans le rapport PDF.
 ### Génération du Rapport PDF
 * **Accéder à la page de génération du rapport** : Depuis le menu principal, sélectionnez l'option "Générer Rapport PDF".
 * **Générer le rapport** : Cliquez sur le bouton pour générer le rapport PDF. Le rapport compilera toutes les données collectées, incluant :
