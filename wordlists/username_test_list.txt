@@ -1,0 +1,16 @@
+admin
+msfadmin
+user
+root
+guest
+test
+administrator
+support
+ftp
+www-data
+webmaster
+info
+backup
+operator
+sysadmin
+dbadmin
