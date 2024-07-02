@@ -32,6 +32,7 @@ Tous les résultats collectés sont compilés dans un rapport PDF complet. Ce ra
 - **Description des CVE** : Fournit des descriptions détaillées des vulnérabilités trouvées, accompagnées de liens vers des ressources pour plus d'informations.
 - **Résultats des Tests d'Authentification** : Présente les résultats des attaques par dictionnaire, incluant les noms d'utilisateur et mots de passe trouvés.
 - **Conclusion** : Résume les principales vulnérabilités découvertes et propose des recommandations pour remédier à ces faiblesses, comme la mise à jour des logiciels, le renforcement des configurations, la surveillance continue, les audits réguliers, et la formation du personnel.
+- **Rapport alternatif** : Si aucune CVE n'est détectée, le rapport généré indique que tous les services et versions détectés sont sécurisés et ne présentent aucune vulnérabilité connue. La conclusion recommandera néanmoins de maintenir une surveillance continue et de réaliser des audits réguliers pour garantir que la sécurité reste au plus haut niveau.
 
 ## Prérequis
 - **Python** : Langage de programmation utilisé pour développer l'application.
