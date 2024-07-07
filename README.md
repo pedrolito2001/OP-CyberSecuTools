@@ -63,17 +63,18 @@ pip install -r requirements.txt
 
 ## Structure du Projet
 ```
-OP-CyberSecuTools
+OP-CyberSecuTools/
 ├── main_program.py
 ├── security_functions.py
 ├── requirements.txt
 ├── reports/
-│   ├── report.pdf
+│   ├── test-projet.pdf
 ├── wordlists/
 │   ├── usernames.txt
-│   ├── rockyou.txt
+│   ├── french_passwords_top20000.txt
+│   ├── password_test_list.txt
+│   ├── username_test_list.txt
 └── README.md
-```
 
 ## Utilisation
 ### Lancer l'application:
