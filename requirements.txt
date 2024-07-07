@@ -1,6 +1,6 @@
 python-nmap
-pdfkit
+ftplib
 paramiko
 requests
-fpdf
 zxcvbn
+reportlab
