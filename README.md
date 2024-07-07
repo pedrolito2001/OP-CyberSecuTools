@@ -6,7 +6,7 @@ Bienvenue dans OP-CyberSecuTools, votre nouvel allié dans le monde de la cybers
 
 Imaginez pouvoir automatiser vos scans de sécurité en quelques clics et obtenir un rapport PDF complet et bien structuré, tout cela sans avoir à être un expert en cybersécurité. C'est exactement ce que OP-CyberSecuTools vous offre. En utilisant des scripts Python robustes comme main_program.py et security_functions.py, notre outil consolide les résultats de vos analyses pour vous offrir une vue d'ensemble claire et exploitable de votre sécurité.
 
-Fonctionnant parfaitement sous Linux, cette application est accessible à tous, même sans connaissances préalables en cybersécurité. Et pour ceux qui connaissent déjà un peu le domaine, vous apprécierez d'autant plus la précision et la profondeur des analyses fournies.
+Fonctionnant parfaitement sous Kali Linux, cette application est accessible à tous, même sans connaissances préalables en cybersécurité. Et pour ceux qui connaissent déjà un peu le domaine, vous apprécierez d'autant plus la précision et la profondeur des analyses fournies.
 
 Prêt à découvrir les vulnérabilités cachées de votre système et à les gérer efficacement ? OP-CyberSecuTools est là pour vous aider.
 
