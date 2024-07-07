@@ -75,8 +75,9 @@ OP-CyberSecuTools/
 │   ├── password_test_list.txt
 │   ├── username_test_list.txt
 └── README.md
+```
 
-## Utilisation
+## Utilisation: 
 ### Lancer l'application:
 Pour démarrer l'application, exécutez le script main_program.py. Ce script sert de point d'entrée pour la toolbox.
 ```bash
