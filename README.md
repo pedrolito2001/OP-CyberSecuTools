@@ -22,7 +22,7 @@ Cette fonctionnalité analyse la sécurité des mots de passe en utilisant la bi
 L'outil permet de tester les authentifications FTP et SSH de manière flexible :
 
 - **Tests Manuels** : Vous pouvez entrer des combinaisons de noms d'utilisateur et de mots de passe manuellement pour tester l'accès.
-- **Attaques par Dictionnaire** En utilisant Hydra, l'outil peut effectuer des attaques par dictionnaire pour tester une large gamme de combinaisons de noms d'utilisateur et de mots de passe automatiquement. Par défaut, les fichiers de dictionnaire username_test_list.txt et password_test_list.txt, situés dans le dossier wordlists, sont utilisés pour améliorer les performances. Les fichiers de dictionnaire plus volumineux usernames.txt et rockyou.txt restent également disponibles dans le dossier wordlists et peuvent être utilisés en modifiant les lignes 134 et 135 dans le fichier security_functions.py.
+- **Attaques par Dictionnaire** En utilisant Hydra, l'outil peut effectuer des attaques par dictionnaire pour tester une large gamme de combinaisons de noms d'utilisateur et de mots de passe automatiquement. Par défaut, les fichiers de dictionnaire username_test_list.txt et password_test_list.txt, situés dans le dossier wordlists, sont utilisés pour améliorer les performances. Les fichiers de dictionnaire plus volumineux usernames.txt et french_passwords_top20000.txt restent également disponibles dans le dossier wordlists et peuvent être utilisés en modifiant les lignes 134 et 135 dans le fichier security_functions.py.
 
 ### Génération de Rapport PDF
 Tous les résultats collectés sont compilés dans un rapport PDF complet. Ce rapport inclut :
