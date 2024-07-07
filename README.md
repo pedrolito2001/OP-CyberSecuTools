@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 ## Structure du Projet
 ```
-toolbox/
+OP-CyberSecuTools-main
 ├── main_program.py
 ├── security_functions.py
 ├── requirements.txt
@@ -83,7 +83,13 @@ python main_program.py
 ```
 
 ### Naviguer dans le menu :
-À l'ouverture de l'application, vous accéderez à la page d'accueil, puis en cliquant sur le bouton "Start", vous accéderez au menu principal. Ce menu vous permet de naviguer entre les différentes fonctionnalités de la toolbox.
+À l'ouverture de l'application, vous accéderez directement au menu principal. Ce menu vous permet de naviguer entre les différentes fonctionnalités de la toolbox :
+* Scan de Ports
+* Analyse de Sécurité des Mots de Passe
+* Test d'Authentification FTP
+* Test d'Authentification SSH
+* Générer Rapport PDF
+* Quitter
 
 ## Fonctionnalités détaillées
 ### Scan de Ports
