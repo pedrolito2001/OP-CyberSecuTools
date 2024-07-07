@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 ## Structure du Projet
 ```
-OP-CyberSecuTools-main
+OP-CyberSecuTools
 ├── main_program.py
 ├── security_functions.py
 ├── requirements.txt
